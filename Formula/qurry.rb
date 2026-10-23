@@ -1,24 +1,24 @@
 class Qurry < Formula
   desc "Free DataGrip alternative: terminal UI and MCP server for PostgreSQL, MySQL and Redis"
   homepage "https://github.com/Hkhyyy/qurry"
-  version "0.1.19"
+  version "0.1.20"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Hkhyyy/qurry/releases/download/v0.1.19/qurry-cli_0.1.19_aarch64-apple-darwin.tar.gz"
-      sha256 "384ababafc5bc31d2f2fcdfdb9807e6a75d1d47a9d8771d593d8d3c890e5d710"
+      url "https://github.com/Hkhyyy/qurry/releases/download/v0.1.20/qurry-cli_0.1.20_aarch64-apple-darwin.tar.gz"
+      sha256 "033c975316f5671142df0a7f61ae47f5466a59f94a6e0d28d01292be931dfaba"
     end
     on_intel do
-      url "https://github.com/Hkhyyy/qurry/releases/download/v0.1.19/qurry-cli_0.1.19_x86_64-apple-darwin.tar.gz"
-      sha256 "f6c8474d942f7610e4850c216cca70fa381ba7e6e75b90e3e208dc714af1e33f"
+      url "https://github.com/Hkhyyy/qurry/releases/download/v0.1.20/qurry-cli_0.1.20_x86_64-apple-darwin.tar.gz"
+      sha256 "3fb523d4dc8c40c8b00ac079127ad0a2c50962257a454363d7f7d7a5cd2ea849"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Hkhyyy/qurry/releases/download/v0.1.19/qurry-cli_0.1.19_x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "452da3a3a1cce0d9b263c1372d6cca5b7ec1aeb823fb74c7746a2e34954b964b"
+      url "https://github.com/Hkhyyy/qurry/releases/download/v0.1.20/qurry-cli_0.1.20_x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b25478a7845830008ee844d4ef5287267865323f0341f9a314e1fe080ee89870"
     end
   end
 
